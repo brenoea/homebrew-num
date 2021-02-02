@@ -22,7 +22,7 @@ class BrewsciR < Formula
   depends_on "pcre"
   depends_on "readline"
   depends_on "xz"
-  depends_on "openjdk@8"
+  depends_on "openjdk@11"
 
   unless OS.mac?
     depends_on "cairo"
